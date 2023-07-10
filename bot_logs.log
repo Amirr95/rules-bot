@@ -1,0 +1,381 @@
+2023-07-10 19:31:55,006 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-10 19:32:26,504 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-10 19:32:26,505 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-10 19:32:27,647 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-10 19:32:42,010 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-10 19:35:04,449 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-10 19:35:04,450 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-10 19:35:05,218 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-10 19:36:43,657 - root - INFO - -1001956851590
+2023-07-10 19:36:43,658 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-10 19:36:51,205 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-10 19:36:51,205 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-10 19:36:52,595 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-10 19:37:19,641 - root - INFO - -1001956851590
+2023-07-10 19:37:19,643 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-10 19:50:38,889 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 19:51:49,214 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-10 19:51:49,215 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-10 19:51:56,080 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-10 19:52:37,931 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-10 19:52:37,932 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-10 19:52:38,329 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-10 19:52:39,839 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-10 19:52:44,927 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getMe
+2023-07-10 19:53:51,862 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-10 19:53:51,863 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-10 19:53:52,489 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-10 19:53:54,350 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-10 19:59:13,681 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 19:59:18,786 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 19:59:23,904 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 19:59:29,000 - telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+2023-07-10 19:59:29,000 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 611, in urlopen
+    self._prepare_proxy(conn)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 827, in _prepare_proxy
+    conn.connect()
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 319, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:980: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 359, in urlopen
+    return super(ProxyManager, self).urlopen(method, url, redirect=redirect, **kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 265, in _request_wrapper
+    raise NetworkError(f'urllib3 HTTPError {error}') from error
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+2023-07-10 20:00:11,056 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-10 20:00:11,057 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-10 20:00:11,338 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-10 20:00:27,135 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-10 20:01:41,333 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:01:46,453 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:01:51,569 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:02:23,848 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:02:28,948 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:03:08,025 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-10 20:03:08,045 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-10 20:03:22,207 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-10 20:06:53,979 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:06:59,081 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:07:04,191 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:07:09,284 - telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+2023-07-10 20:07:09,285 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 611, in urlopen
+    self._prepare_proxy(conn)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 827, in _prepare_proxy
+    conn.connect()
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 319, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:980: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 359, in urlopen
+    return super(ProxyManager, self).urlopen(method, url, redirect=redirect, **kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 265, in _request_wrapper
+    raise NetworkError(f'urllib3 HTTPError {error}') from error
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+2023-07-10 20:07:15,376 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:07:20,472 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:07:25,562 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:07:30,658 - telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+2023-07-10 20:07:30,661 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 611, in urlopen
+    self._prepare_proxy(conn)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 827, in _prepare_proxy
+    conn.connect()
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 319, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:980: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 359, in urlopen
+    return super(ProxyManager, self).urlopen(method, url, redirect=redirect, **kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 265, in _request_wrapper
+    raise NetworkError(f'urllib3 HTTPError {error}') from error
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+2023-07-10 20:07:37,252 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:07:42,348 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:08:29,021 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:09:55,112 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:10:00,213 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:10:05,310 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:10:10,404 - telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+2023-07-10 20:10:10,406 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 611, in urlopen
+    self._prepare_proxy(conn)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 827, in _prepare_proxy
+    conn.connect()
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 319, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:980: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 359, in urlopen
+    return super(ProxyManager, self).urlopen(method, url, redirect=redirect, **kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 265, in _request_wrapper
+    raise NetworkError(f'urllib3 HTTPError {error}') from error
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+2023-07-10 20:10:16,515 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:10:21,623 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:10:26,733 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out'))': /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates
+2023-07-10 20:10:31,834 - telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+2023-07-10 20:10:31,837 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 611, in urlopen
+    self._prepare_proxy(conn)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 827, in _prepare_proxy
+    conn.connect()
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 319, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:980: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 359, in urlopen
+    return super(ProxyManager, self).urlopen(method, url, redirect=redirect, **kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/home/amir/.cache/pypoetry/virtualenvs/rules-bot-1xGNZizh-py3.10/lib/python3.10/site-packages/telegram/utils/request.py", line 265, in _request_wrapper
+    raise NetworkError(f'urllib3 HTTPError {error}') from error
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot6293821023:AAFNkUKZO5paCCnKPdiG-6DS_zIA9j0lClQ/getUpdates (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:980: The handshake operation timed out')))
+2023-07-10 20:18:57,917 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-10 20:18:57,918 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-10 20:18:58,357 - telegram.ext.updater - WARNING - Exiting immediately!

@@ -1,0 +1,9 @@
+version: '3'
+services:
+  rules-bot:
+    build: 
+      context: .
+      dockerfile: dockerfile
+    volumes:
+      - .:/bot
+    command: python3 -u main.py
